@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+body {
+  /* background-color: #fd2c2a; */
+  transition: all cubic-bezier(0.23, 1, 0.32, 1) 1s;
+  background-color: #fff;
+  color: #000;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Helvetica", sans-serif;
+}
+
+canvas {
+  pointer-events: none;
+}
+h1 {
+  cursor: pointer;
+}
+span.growing {
+  background-color: #fd2c2a;
+}
+
+.flex-1 {
+  flex: 1;
+}
+.cursor {
+  background-color: #111;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
