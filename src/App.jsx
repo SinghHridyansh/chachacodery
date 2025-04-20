@@ -281,7 +281,7 @@ const App = () => {
               <Canvas details={canvasItem} key={canvasIndex} />
             ))}
 
-          <div className="  flex justify-between  w-[55%] bg-red-300">
+          <div className="  flex justify-between  w-[55%] ">
             <div className="flex items-start justify-start  w-[22rem]">
               <h1 className="text-xl tracking-tighter ">02 - WHO WE ARE</h1>
             </div>
